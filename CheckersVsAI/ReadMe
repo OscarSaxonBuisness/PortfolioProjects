@@ -1,44 +1,45 @@
-♟️ Checkers vs AI (Python)
-This is a Python-based checkers game where a human player competes against a basic AI opponent. The game includes a visual board rendered with pygame, and uses custom logic for moves, captures, and game state.
+♟️ Checkers vs AI (Python + Tkinter)
+This project is a two-player checkers game built using Python's tkinter GUI library, with an AI opponent powered by the Minimax algorithm. It allows the player to move pieces interactively with the mouse, 
+while the computer opponent evaluates the board and makes strategic decisions in response.
 
-🔧 Features
-Two-player checkers game (Player vs AI)
+🧠 How It Works
+The game logic includes piece selection, movement, capturing, and turn control.
 
-Simple AI that makes random or semi-strategic moves
+The AI uses the Minimax algorithm, which simulates multiple future game states to determine the optimal move.
+This helps the computer make decisions that minimize the player's chance of winning while maximizing its own advantage.
 
-Interactive board with piece dragging
+Piece images are dynamically loaded (black.png and white.png) to render a visually engaging board.
 
-Visual assets for black and white pieces
+🎮 Controls
+Move: Click on a piece, then click the destination square to move it.
 
-🧾 Files Included
+Turn-Based: Player vs AI format (one move at a time).
+
+📁 Files Included
 File	Description
-Checkers 24.py	Main game script (run this to play)
-black.png	Black checker piece image
-white.png	White checker piece image
+Checkers 24.py	Main game logic and UI
+black.png	Black piece image
+white.png	White piece image
 
-▶️ How to Play
-Ensure you have Python 3 installed.
+🚀 How to Run
+Make sure you have Python installed (3.6+ recommended).
 
-Install pygame if you haven’t already:
+Install dependencies:
 
 bash
 Copy
 Edit
-pip install pygame
+pip install pillow
 Run the game:
 
 bash
 Copy
 Edit
 python "Checkers 24.py"
-Play as white; click and drag pieces to move.
 
-📄 Project Report
-🚀 Future Improvements
-Smarter AI with minimax algorithm
-
-Highlight valid moves
-
-
-
-Add main menu and score tracking
+🛠️ Features
+Click-based piece movement
+Turn-based logic
+Basic AI opponent using Minimax
+Visual interface with image-based pieces
+Input validation and edge case handling
