@@ -1,0 +1,39 @@
+🌐 Product Showcase Website
+A responsive web app built with HTML, CSS, JavaScript, PHP, and MySQL. Users can browse a catalog, register an account, sign in, and manage a shopping basket. This was created for a university web development module.
+
+🎯 Features
+Product listing homepage
+
+User login and sign-up system
+
+Shopping basket with session support
+
+About and contact pages
+
+PHP–MySQL database integration
+
+🛠 Tech Stack
+HTML, CSS, JavaScript
+
+PHP (server-side)
+
+MySQL (database)
+
+XAMPP / phpMyAdmin for local development
+
+
+📁 File Structure
+index.php – main homepage
+
+log.php / sign.php – user auth pages
+
+product.php / basket.php – product views and cart
+
+Database.php – connects to the MySQL database
+
+/img – images
+
+/css – styling
+
+▶️ Demo
+(https://drive.google.com/file/d/1exPOihzWbyWOkIwXwed_iQ9EFmgr7JeO/view?usp=drive_link)
