@@ -1,1 +1,44 @@
+♟️ Checkers vs AI (Python)
+This is a Python-based checkers game where a human player competes against a basic AI opponent. The game includes a visual board rendered with pygame, and uses custom logic for moves, captures, and game state.
 
+🔧 Features
+Two-player checkers game (Player vs AI)
+
+Simple AI that makes random or semi-strategic moves
+
+Interactive board with piece dragging
+
+Visual assets for black and white pieces
+
+🧾 Files Included
+File	Description
+Checkers 24.py	Main game script (run this to play)
+black.png	Black checker piece image
+white.png	White checker piece image
+
+▶️ How to Play
+Ensure you have Python 3 installed.
+
+Install pygame if you haven’t already:
+
+bash
+Copy
+Edit
+pip install pygame
+Run the game:
+
+bash
+Copy
+Edit
+python "Checkers 24.py"
+Play as white; click and drag pieces to move.
+
+📄 Project Report
+🚀 Future Improvements
+Smarter AI with minimax algorithm
+
+Highlight valid moves
+
+
+
+Add main menu and score tracking
