@@ -1,1 +1,48 @@
+🎲 Lucky Guess Number Game (C# WinForms)
+This is a simple C# Windows Forms game designed to help users practice number comparison, estimation, and intuition. The player attempts to guess a randomly generated number within a specific range.
 
+🧠 Game Concept
+The application randomly selects a number, and the player has to guess what it is. After each attempt, the game provides feedback whether the guess was too high or too low. The goal is to guess the correct number in the fewest attempts possible.
+
+💡 Features
+Random number generation within a defined range
+
+Multiple forms for game flow (e.g., intro screen, gameplay, and result)
+
+Real-time feedback for user guesses
+
+Win/lose condition handling
+
+Restartable game loop
+
+🖱️ How to Play
+Launch the application.
+
+Enter your guess in the input box.
+
+Click the Submit button.
+
+The game will tell you whether your guess is too high, too low, or correct.
+
+Once the number is guessed correctly, the player is shown a result screen with the option to restart.
+
+🛠️ Built With
+C# using Windows Forms
+
+System.Random for number generation
+
+Event-driven programming for UI interaction
+
+📁 Files Included
+File	Description
+Form1.cs	Main form (game screen)
+Form2.cs	Secondary form (e.g., instructions or results)
+Form3.cs	Additional form for game management or feedback
+.Designer.cs & .resx files	Handle layout and resources for each form
+
+🧪 Notes
+This is a beginner-friendly project aimed at learning C# syntax and form controls.
+
+All logic and UI elements are self-contained within the project.
+
+Great for demonstrating event-driven programming and user interaction.
