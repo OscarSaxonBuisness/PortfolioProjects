@@ -28,7 +28,7 @@ npm run dev
 ```bash
 cd AI-Service
 pip install -r requirements.txt
-python app.py
+python predict.py
 ```
 
 ## API Endpoints
