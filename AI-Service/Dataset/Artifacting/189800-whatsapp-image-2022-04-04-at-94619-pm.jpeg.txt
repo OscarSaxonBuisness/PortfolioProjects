@@ -1,3 +1,0 @@
-https://learn-attachment.microsoft.com/api/attachments/189800-whatsapp-image-2022-04-04-at-94619-pm.jpeg?platform
-
-Cannot download image; STATUS_CODE_400
