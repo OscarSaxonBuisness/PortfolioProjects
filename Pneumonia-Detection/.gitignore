@@ -1,0 +1,23 @@
+# Kaggle credentials
+kaggle.json
+
+# Dataset — too large for GitHub
+chest_xray/
+chest-xray-pneumonia.zip
+*.zip
+
+# Saved models
+*.h5
+*.keras
+*.pb
+saved_model/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
