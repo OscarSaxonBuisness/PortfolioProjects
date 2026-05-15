@@ -1,4 +1,0 @@
-Yellow = #F59F24
-Grey = #6F6158
-Blue = #44B7AE
-Off White = #F9F6EE
